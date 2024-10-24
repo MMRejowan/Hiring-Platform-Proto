@@ -196,6 +196,20 @@
     margin: 0.5rem 0;
     width: 100%;
   }
+
+  .footer {
+    background-color: #f1f1f1; /* Light background color */
+    text-align: center; /* Centered text */
+    padding: 10px 0; /* Padding for spacing */
+    position: relative; /* Ensures it stays at the bottom */
+    bottom: 0; /* Sticks to the bottom */
+    width: 100%; /* Full width */
+}
+
+.footer a {
+    color: #010b16; /* Link color */
+    text-decoration: none; /* No underline */
+}
   
   @keyframes show {
     0%,
